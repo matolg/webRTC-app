@@ -1,0 +1,35 @@
+{
+	"name": "webRTC-app",
+	"version": "0.0.1",
+	"description": "Skype-like video chat application based on webRTC technology",
+	"author": "Maxim Tolgobolsky <mtolgobolsky@gmail.com> (https://github.com/mtolgobolsky)",
+	"contributors": [
+		"Maxim Tolgobolsky <mtolgobolsky@gmail.com> (https://github.com/mtolgobolsky)"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mtolgobolsky/webRTC-app.git"
+	},
+	"homepage": "http://webrtc-livecht.rhcloud.com/",
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"start": "node app/app.js"
+  	},
+  	"keywords": [
+		"webRTC",
+		"livechat",
+		"videochat"
+	],
+	"bugs": {
+		"url": "https://github.com/mtolgobolsky/webRTC-app/issues"
+	},
+	"dependencies": {
+		"express": "^4.8.0",
+		"express-session": "^1.7.2",
+		"riot": "^2.0.13"
+	},
+	"devDependencies": {
+		"gulp": "~3.8.0"
+	}
+}
