@@ -13,6 +13,7 @@
 	"homepage": "http://webrtc-livecht.rhcloud.com/",
 	"license": "MIT",
 	"private": true,
+	"main": "app/app.js",
 	"scripts": {
 		"start": "node app/app.js"
   	},
