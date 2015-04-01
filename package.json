@@ -15,7 +15,7 @@
 	"private": true,
 	"main": "app/app.js",
 	"scripts": {
-		"start": "node app/app.js"
+		"start": "node app/server.js"
   	},
   	"keywords": [
 		"webRTC",
@@ -28,7 +28,10 @@
 	"dependencies": {
 		"express": "^4.8.0",
 		"express-session": "^1.7.2",
-		"riot": "^2.0.13"
+		"express-handlebars": "^2.0.0",
+		"react": "^0.13.1",
+		"errorhandler": "^1.3.5",
+		"serve-favicon": "^2.2.0"
 	},
 	"devDependencies": {
 		"gulp": "~3.8.0"
