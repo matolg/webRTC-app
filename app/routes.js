@@ -1,5 +1,13 @@
+var React = require('react');
+var LiveChatApp = require('components/LiveChatApp.react');
+
 module.exports = {
 	index: function(req, res) {
-		res.render('home.hbs', {});
+		var markup = React.renderComponentToString(LiveChatApp());
+		
+		res.render('home.hbs', {
+			markup: markup,
+			state: null
+		});
 	}
 }
